@@ -63,11 +63,11 @@ de:
         no_open_processes: Es gibt keine offenen Verfahren
         no_past_processes: Keine vergangenen Beteiligungsverfahren vorhanden
         section_header:
-          icon_alt: Gesetzgebungsverfahren Icon
-          title: Gesetzgebungsverfahren
-          help: Hilfe zu Gesetzgebungsverfahren
+          icon_alt: Kollaboratives Verfahren Icon
+          title: Kollaboratives Verfahren
+          help: Hilfe zu Kollaboratives Verfahren
         section_footer:
-          title: Hilfe zu Gesetzgebungsverfahren
+          title: Hilfe zu Kollaboratives Verfahren
           description: Nehmen Sie an Debatten und Verfahren teil, bevor eine Verordnung oder eine kommunale Handlung genehmigt wird. Ihre Meinung wird vom Stadtrat berücksichtigt.
       phase_not_open:
         not_open: Diese Phase ist noch nicht geöffnet
@@ -103,7 +103,7 @@ de:
         next_question: Nächste Frage
         first_question: Erste Frage
         share: Teilen
-        title: kollaboratives Gesetzgebungsverfahren
+        title: kollaboratives Verfahren
       participation:
         phase_not_open: Diese Phase ist nicht geöffnet
         organizations: Organisationen dürfen sich nicht an der Diskussion beteiligen
@@ -117,4 +117,4 @@ de:
       form:
         tags_label: "Kategorien"
       not_verified: "Für Wahlvorschläge %{verify_account}."
-      process_title: Kollaboratives Gesetzgebungsverfahren
+      process_title: Kollaboratives Verfahren

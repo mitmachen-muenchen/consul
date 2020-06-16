@@ -173,7 +173,7 @@ de:
       polls_description: "Bürgerabstimmungen sind ein partizipatorischer Mechanismus, mit dem Bürger mit Wahlrecht direkte Entscheidungen treffen können"
       budgets: "Bürgerhaushalt"
       budgets_description: "Bei Bürgerhaushalten entscheiden die Bürger, welche von ihren Nachbarn vorgestellten Projekte einen Teil des Budgets erhalten"
-      legislation: "Kollaborative Gesetzgebung"
+      legislation: "Kollaborativs Verfahren"
       legislation_description: "In partizipativen Prozessen wird den Bürgern die Möglichkeit geboten, sich an der Ausarbeitung und Änderung von Vorschriften, die die Gesellschaft betreffen, zu beteiligen und ihre Meinung zu bestimmten geplanten Aktionen abzugeben"
     html:
       per_page_code_head: "Code, der auf jeder Seite eingefügt wird (<head>)"

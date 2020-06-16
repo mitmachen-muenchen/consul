@@ -496,13 +496,13 @@ de:
         index:
           create: Neues Beteiligungsverfahren
           delete: Löschen
-          title: Gesetzgebungsverfahren
+          title: Kollaboratives Verfahren
           filters:
             active: Aktiv
             all: Alle
         new:
           back: Zurück
-          title: Neues kollaboratives Gesetzgebungsverfahren erstellen
+          title: Neues kollaboratives Verfahren erstellen
           submit_button: Beteiligungsverfahren erstellen
         proposals:
           select_order: Sortieren nach
@@ -687,7 +687,7 @@ de:
       title_settings: Einstellungen
       title_site_customization: Seiteninhalt
       title_booths: Wahlkabinen
-      legislation: Kollaborative Gesetzgebung
+      legislation: Kollaboratives Verfahren
       users: Benutzer*innen
       dashboard: Vorschläge Dashboard
       administrator_tasks: Beantragte Ressourcen
