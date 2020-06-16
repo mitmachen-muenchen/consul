@@ -20,7 +20,9 @@
     background-repeat: no-repeat;
     }
 
-
+    h1 {
+        display: none !important;
+    }
 
     .lead {
     color: $text;
@@ -37,6 +39,7 @@
     .button {
     background: #000;
     color: #fff;
+    text-align: left;
     }
 }
 }
