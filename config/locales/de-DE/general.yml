@@ -294,6 +294,10 @@ de:
       sign_in: Anmelden mit Google
       sign_up: Registrierung mit Google
       name: Google
+    wordpress_oauth2:
+      sign_in: Anmelden mit Wordpress
+      sign_up: Registrieren mit Wordpress
+      name: Wordpress
     twitter:
       sign_in: Anmelden mit Twitter
       sign_up: Registrierung mit Twitter
@@ -432,6 +436,7 @@ de:
         one: 1 Stimme
         other: "%{count} Stimmen"
       supports_necessary: "%{number} Unterstützungen benötigt"
+      reason_for_supports_necessary: ""
       total_percent: 100 %
       archived: "Dieser Vorschlag wurde archiviert und nicht mehr unterstützt werden."
       successful: "Dieser Vorschlag hat die erforderliche Unterstützung erreicht."
@@ -574,7 +579,9 @@ de:
         title: Poster Vorschau
         poster_title: "Schaue nicht weiter,"
         poster_subtitle: "unterstütze mich! ;)"
-        intro_text: "<strong> Ich beteilige mich mit meinem eigenen Bürgervorschlag an %{org}</strong>, und nur wenn Sie dem beitreten, kann ich die notwendige Unterstützung erreichen, damit wir die Stadt so gestalten, wie wir sie alle wollen."
+        intro_text: 
+          "<strong> Ich beteilige mich mit meinem eigenen Bürgervorschlag an %{org}</strong>, und nur wenn Sie dem beitreten, 
+          kann ich die notwendige Unterstützung erreichen, damit wir die Stadt so gestalten, wie wir sie alle wollen."
         proposal_code: "Code des Vorschlags: %{code}"
         support: Unterstütze meinen Vorschlag
         footer: "<strong>Besuche %{link} und unterstütze diesen Vorschlag.</strong> Wir müssen viele sein. Entscheiden Sie sich auch dafür. Ich danke Ihnen!"
@@ -869,6 +876,9 @@ de:
       organization: Organisationen ist es nicht erlaubt abzustimmen
       unfeasible: Undurchführbare Investitionsprojekte können nicht unterstützt werden
       not_voting_allowed: Die Abstimmungsphase ist beendet
+      different_heading_assigned:
+        one: "You can only support investment projects in %{count} district. You have already supported investments in %{supported_headings}."
+        other: "You can only support investment projects in %{count} districts. You have already supported investments in %{supported_headings}."
   welcome:
     feed:
       most_active:

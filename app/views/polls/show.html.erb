@@ -61,9 +61,9 @@
             <h3><%= answer.title %></h3>
           <% end %>
 
-          <% if answer.images.any? %>
-            <%= render "gallery", answer: answer %>
-          <% end %>
+
+          <%= render "gallery", answer: answer %>
+
 
           <% if answer.description.present? %>
             <div class="margin-top">
