@@ -4,6 +4,13 @@
 // * Spanish: https://github.com/consul/consul/blob/master/CUSTOMIZE_ES.md#css
 //
 
+
 .topless {
-    top: 0px !important;
+  @include breakpoint(small) {
+  top: 207px !important;
+  }
+ 
+  @include breakpoint(medium) {
+  top: 0px !important;
+  }
 }
