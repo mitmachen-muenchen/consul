@@ -6,9 +6,7 @@
 
 
 .topless {
-  @include breakpoint(small) {
-  top: 207px !important;
-  }
+
  
   @include breakpoint(medium) {
   top: 0px !important;
