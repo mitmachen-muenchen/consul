@@ -10,13 +10,37 @@
 
   .jumbo {
 
-    @media only screen and (max-width: 640px) {
+    @media only screen and (max-width: 414px) {
+      background: #ffffff image-url("welcome/background_header_small.jpg");
+      background-position: bottom;
+      background-size: 100% auto;
+      background-repeat: no-repeat;
+      padding-bottom: rem-calc(190);
+
+      span {
+        display: none;
+      }
+
+      .lead {
+        color: $brand;
+        font-size: rem-calc(30);
+        font-weight: 700;
+        line-height: rem-calc(30);
+      }
+
+      .button {
+        background: $brand;
+        color: #fff;
+        max-width: 100%;
+      }
+    }
+
+    @media only screen and (min-width: 414px) and (max-width: 640px) {
       background: #ffffff image-url("welcome/background_header_small.jpg");
       background-position: bottom;
       background-size: 100% auto;
       background-repeat: no-repeat;
       padding-bottom: rem-calc(220);
-
 
       span {
         display: none;
