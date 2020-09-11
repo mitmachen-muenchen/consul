@@ -19,6 +19,17 @@
   <%= render "feeds" %>
 
   <div class="row">
+    <div class="small-12 column headerinfo">
+      <h3>
+        Wir laden Sie herzlich ein, sich mit uns zum Thema Sommerstraßen und autoreduzierte Quartiere auf den Weg zu machen. 
+        Dazu bitten wir Sie, sich kurz zu registreiren - und schon geht es los: Je mehr Münchner*innen sich beteiligen, 
+        desto mehr Aussagekraft bekommen die Ergebnisse. Warum wir dies tun, lesen Sie hier: <br>
+        <%= link_to "Warum & Wofür", "https://www.muenchen-mitmachen.de/warum_wofuer" %>
+      </h3>
+    </div>
+  </div>
+
+  <div class="row">
     <% if @cards.any? %>
       <div class="small-12 column <%= "large-8" if feed_processes_enabled? %>">
         <%= render "cards" %>
