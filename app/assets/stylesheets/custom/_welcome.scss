@@ -4,71 +4,166 @@
   
 .home-page {
 
-.background-header {
-    display: none;
-}
+  .background-header {
+      display: none;
+  }
 
-.jumbo {
-    background: #ffffff image-url("welcome/background_header_small.jpg");
-    background-position: bottom;
-    background-repeat: no-repeat;
-    padding-bottom: rem-calc(300);
+  .jumbo {
 
-    @include breakpoint(medium) {
-        background: image-url("welcome/background_header_small.jpg");
-        background-size: 100% auto;
-        background-repeat: no-repeat;
-        }
+    @media only screen and (max-width: 640px) {
+      background: #ffffff image-url("welcome/background_header_small.jpg");
+      background-position: bottom;
+      background-size: 100% auto;
+      background-repeat: no-repeat;
+      padding-bottom: rem-calc(220);
 
 
-    .small-12.medium-6.column.medium-9.small {
-        margin-top: rem-calc(0);
+      span {
+        display: none;
+      }
 
+      .lead {
+        color: $brand;
+        font-size: rem-calc(30);
+        font-weight: 700;
+        line-height: rem-calc(30);
+      }
 
-        @include breakpoint(medium) {
-            margin-top: rem-calc(20);
-        }
-
-        @include breakpoint(large) {
-            margin-top: rem-calc(30);
-        }
-
-        @include breakpoint(xxlarge) {
-            margin-top: rem-calc(120);
-            background-size: 1000% auto;
-        }
+      .button {
+        background: $brand;
+        color: #fff;
+        max-width: 100%;
+      }
     }
 
-    .lead {
-    color: $brand;
-    font-size: rem-calc(30);
-    font-weight: 700;
-    line-height: rem-calc(30);
+    @media only screen and (min-width: 640px) and (max-width: 768px) {
+      padding-top: 30px;
+      background: image-url("welcome/background_header_small.jpg");
+      background-size: 100% auto;;
+      background-repeat: no-repeat;
+      padding-bottom: rem-calc(100);
 
-    @include breakpoint(medium) {
-        font-size: rem-calc(40);
-        line-height: rem-calc(40);
-    }
-    
-    @include breakpoint(large) {
-        font-size: rem-calc(50);
-        line-height: rem-calc(50);
-    }
-        
-    @include breakpoint(xxlarge) {
-        font-size: rem-calc(60);
-        line-height: rem-calc(60);
-    }
+      span {
+        display: none;
+      }
+
+      .lead {
+        color: $brand;
+        font-size: rem-calc(30);
+        font-weight: 700;
+        line-height: rem-calc(30);
+      }
+
+      .button {
+        background: $brand;
+        color: #fff;
+        max-width: 100%;
+      }
     }
 
-    .button {
-    background: $brand;
-    color: #fff;
-    }
-}
-}
+    @media only screen and (min-width: 768px) and (max-width: 1080px) {
+      padding-top: 70px;
+      background: image-url("welcome/background_header_small.jpg");
+      background-size: 100% auto;;
+      background-repeat: no-repeat;
+      padding-bottom: rem-calc(110);
 
-.headerinfo {
-  margin-top: 2em;
-  margin-bottom: 2em;
+      .lead {
+        color: $brand;
+        font-size: rem-calc(30);
+        font-weight: 700;
+        line-height: rem-calc(30);
+      }
+
+      .button {
+        background: $brand;
+        color: #fff;
+        max-width: 100%;
+      }
+    }
+
+    @media only screen and (min-width: 1080px) and (max-width: 1440px) {
+      padding-top: 150px;
+      background: image-url("welcome/background_header_small.jpg");
+      background-size: 100% auto;;
+      background-repeat: no-repeat;
+      padding-bottom: rem-calc(150);
+
+      .lead {
+        color: $brand;
+        font-size: rem-calc(30);
+        font-weight: 700;
+        line-height: rem-calc(30);
+      }
+
+      .button {
+        background: $brand;
+        color: #fff;
+        max-width: 100%;
+      }
+    }
+
+    @media only screen and (min-width: 1440px) and (max-width: 1554px) {
+      padding-top: 160px;
+      background: image-url("welcome/background_header_small.jpg");
+      background-size: 100% auto;;
+      background-repeat: no-repeat;
+      padding-bottom: rem-calc(160);
+
+      .lead {
+        color: $brand;
+        font-size: rem-calc(30);
+        font-weight: 700;
+        line-height: rem-calc(30);
+      }
+
+      .button {
+        background: $brand;
+        color: #fff;
+        max-width: 100%;
+      }
+    }
+
+    @media only screen and (min-width: 1554px) and (max-width: 1900px) {
+      padding-top: 190px;
+      background: image-url("welcome/background_header_small.jpg");
+      background-size: 100% auto;;
+      background-repeat: no-repeat;
+      padding-bottom: rem-calc(260);
+
+      .lead {
+        color: $brand;
+        font-size: rem-calc(30);
+        font-weight: 700;
+        line-height: rem-calc(30);
+      }
+
+      .button {
+        background: $brand;
+        color: #fff;
+        max-width: 100%;
+      }
+    }
+
+    @media only screen and (min-width: 1900px) {
+      padding-top: 250px;
+      background: image-url("welcome/background_header_small.jpg");
+      background-size: 100% auto;;
+      background-repeat: no-repeat;
+      padding-bottom: rem-calc(380);
+
+      .lead {
+        color: $brand;
+        font-size: rem-calc(30);
+        font-weight: 700;
+        line-height: rem-calc(30);
+      }
+
+      .button {
+        background: $brand;
+        color: #fff;
+        max-width: 100%;
+      }
+    }
+  }
 }
