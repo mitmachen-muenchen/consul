@@ -83,17 +83,18 @@
     }
 
     @media only screen and (min-width: 1080px) and (max-width: 1440px) {
-      padding-top: 150px;
+      padding-top: 50px;
       background: image-url("welcome/background_header_small.jpg");
       background-size: 100% auto;;
       background-repeat: no-repeat;
-      padding-bottom: rem-calc(150);
+      padding-bottom: rem-calc(200);
 
       .lead {
         color: $brand;
         font-size: rem-calc(30);
         font-weight: 700;
         line-height: rem-calc(30);
+        max-width: 80%;
       }
 
       .button {
